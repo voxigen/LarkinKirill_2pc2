@@ -1,2 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿class Coin
+{
+    public string name { get; set; }
+    public int sell { get; set; }
+    public Coin (string n, int s)
+    {
+        name = n;
+        sell = s;
+    }
+}
+
